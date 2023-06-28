@@ -8,6 +8,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				sh "mvn --version"
+				sh "ls -al"
 				echo "Pre-Build"
 				echo "Build"
 			}
